@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+.navbar{
+  display: flex;
+  width: 100%;
+  
+  
+  
+}
+
+#nav-heading{
+
+  font-size: large;
+  padding-top: 10px;
+  padding-left: 10px;
+  
+}
+
+
+#nav-list{
+  display: flex;
+
+font-size: large;
+justify-content: space-evenly;
+padding-top: 10px;
+margin-left: auto;
+gap: 20px;
+padding-right: 16px;
+
+
+}
+
+
+  .dissapiar{
+    display: none;
+  }
+
+@media screen and (min-width: 700px){
+  #menu-icon{
+    display:none;
+  }
+  .dissapiar{
+    display: block;
+  }
+}
+
+
+
+
+  
