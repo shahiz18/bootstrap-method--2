@@ -44,7 +44,7 @@ color:white;
     display: none;
   }
   #hero{
-    margin-top:30px ;
+    margin-top:16px ;
     padding-top: 30px;
     font-family: 'crimson text',sans-serif;
     background-image: url('merged-triangle.png');
@@ -59,12 +59,29 @@ color:white;
     color: white;
   }
   #intro{
+    display: flex;
     font-size: large;
     color:white;
     text-align: left;
-    width: 50%;
+    width: 100%;
 
   }
+  #intro-sentence{
+    width: 50%;
+  }
+  #my-picture-div{ 
+    height: 120px;
+    width: 50%;   
+    padding-left: 30px;
+    padding-top: 20px;
+    
+  }
+  #my-image{
+    height: 120px;
+    border-radius: 20px;
+  }
+  
+
   button{
     display: inline-block;
     padding: 8px 10px; /* Adjust padding as needed for your design */
@@ -76,7 +93,7 @@ color:white;
     color: white; /* Example text color */
     background-color: rgb(53, 55, 75); /* Example background color */
     cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3)
+    
     
   }
   button:hover{
